@@ -57,6 +57,7 @@
     </Compile>
     <Compile Include="GaussianFilter.cs" />
     <Compile Include="GrayScaleFiltres.cs" />
+    <Compile Include="Ideal_Otrashatel.cs" />
     <Compile Include="InxvertFilter.cs" />
     <Compile Include="MatrixFilter.cs" />
     <Compile Include="MediannFiltres.cs" />

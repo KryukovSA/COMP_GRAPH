@@ -119,19 +119,19 @@ namespace WindowsFormsApp1
 
       
 
-        private void поХToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            char regim = 'X';//выбор режима
-            Filtres filtres = new Sobel_filtres(regim);
-            backgroundWorker1.RunWorkerAsync(filtres);
-        }
+        //private void поХToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    char regim = 'X';//выбор режима
+        //    Filtres filtres = new Sobel_filtres(regim);
+        //    backgroundWorker1.RunWorkerAsync(filtres);
+        //}
 
-        private void поYToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            char regim = 'Y';//выбор режима
-            Filtres filtres = new Sobel_filtres(regim);
-            backgroundWorker1.RunWorkerAsync(filtres);
-        }
+        //private void поYToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    char regim = 'Y';//выбор режима
+        //    Filtres filtres = new Sobel_filtres(regim);
+        //    backgroundWorker1.RunWorkerAsync(filtres);
+        //}
 
         private void тиснениеToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -157,8 +157,30 @@ namespace WindowsFormsApp1
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
+        private void идеальныйОтражательToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filtres filter = new Ideal_Otrashatel();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
 
+        private void поXToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            char regim = 'X';//выбор режима
+            Filtres filtres = new Sobel_filtres(regim);
+            backgroundWorker1.RunWorkerAsync(filtres);
+        }
 
+        private void поYToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            char regim = 'Y';//выбор режима
+            Filtres filtres = new Sobel_filtres(regim);
+            backgroundWorker1.RunWorkerAsync(filtres);
+        }
 
+        private void медианныйФильтрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filtres filter = new MediannFiltres();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }

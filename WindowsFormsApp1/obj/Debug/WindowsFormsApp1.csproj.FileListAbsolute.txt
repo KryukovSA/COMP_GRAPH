@@ -8,3 +8,13 @@ C:\Users\HP-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF
 C:\Users\HP-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\HP-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\HP-PC\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\HP-PC\Desktop\2 семестр лабы иипр\комп.графика\COMP_GRAPH\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
