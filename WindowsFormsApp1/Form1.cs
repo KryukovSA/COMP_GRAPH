@@ -182,5 +182,10 @@ namespace WindowsFormsApp1
             Filtres filter = new MediannFiltres();
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void матемToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

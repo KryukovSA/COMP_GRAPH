@@ -21,9 +21,9 @@ namespace WindowsFormsApp1
             int radiusX = kernel.GetLength(0) / 2;
             int radiusY = kernel.GetLength(1) / 2;
 
-            float resultR = 0;
-            float resultG = 0;
-            float resultB = 0;
+            //float resultR = 0;
+            //float resultG = 0;
+            //float resultB = 0;
 
             float[] arr = new float[25];
             Color[] arr_ = new Color[25];

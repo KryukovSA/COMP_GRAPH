@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="BlurFilter.cs" />
     <Compile Include="brightPlus.cs" />
+    <Compile Include="Dilation.cs" />
     <Compile Include="Filtres.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
