@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.ComponentModel;
+
 namespace WindowsFormsApp1
 {
     abstract class Filtres
     {
 
-        
 
-        public Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
+       
+        public virtual Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
         {
             Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);
             for(int i = 0; i<sourceImage.Width; i++)

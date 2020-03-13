@@ -183,9 +183,23 @@ namespace WindowsFormsApp1
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
-        private void матемToolStripMenuItem_Click(object sender, EventArgs e)
+        private void autolevelsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Filtres filter = new Autolevels();
+            backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void сужениеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filtres filter = new erosion();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void расширениеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filtres filter = new Dilation();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
     }
 }

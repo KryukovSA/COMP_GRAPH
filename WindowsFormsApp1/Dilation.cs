@@ -9,39 +9,59 @@ namespace WindowsFormsApp1
 {
     class Dilation : MatrixFilter
     {
-         public void creatDilation(byte* source[], )
-        {
-            
-
-
-
-
-
-
-        }
-        //    public void createGaussianKernel(int radius, float sigma)
+       // public void creatDilation(int radius)//unsafe
         //{
         //    int size = 2 * radius + 1;
         //    kernel = new float[size, size];
-        //    float norm = 0;
-
         //    for (int i = -radius; i <= radius; i++)
+        //    {
         //        for (int j = -radius; j <= radius; j++)
         //        {
-        //            kernel[i + radius, j + radius] = (float)(Math.Exp(-(i * i + j * j) / (2 * sigma * sigma)));
-        //            norm += kernel[i + radius, j + radius];
+        //            bool flag = true;
+        //            for (int zi = Math.Max(i - 1, 0); zi <= Math.Min(i + 1, radius - 1); zi++)
+        //            {
+        //                for (int zj = Math.Max(i - 1, 0); zj <= Math.Min(i + 1, radius - 1); zj++)
+        //                    if ((!(zi == i && zj == j)) && (kernel[zi, zj] == 0))
+        //                        flag = false;
+        //            }
+
+
+
+        //            if (flag)
+        //                kernel[i, j] = 255;
+        //            else
+        //                kernel[i, j] = 0;
         //        }
 
-        //    for (int i = 0; i < size; i++)
-        //        for (int j = 0; j < size; j++)
-        //            kernel[i, j] /= norm;
 
+        //    }
+        // }
+
+
+        //public Dilation()
+        //{
+        //    creatDilation(3);
         //}
 
-        public GaussianFilter()
+        public Dilation()
         {
-            createGaussianKernel(3, 2);
-        }
+            int sizeX = 3;
+            int sizeY = 3;
+            kernel = new float[sizeX, sizeY];
 
+
+            kernel[0, 0] = 0;
+            kernel[0, 1] = 1;
+            kernel[0, 2] = 0;
+            kernel[1, 0] = 1;
+            kernel[1, 1] = 1;
+            kernel[1, 2] = 1;
+            kernel[2, 0] = 0;
+            kernel[2, 1] = 1;
+            kernel[2, 2] = 0;
+
+
+
+        }
     }
 }
