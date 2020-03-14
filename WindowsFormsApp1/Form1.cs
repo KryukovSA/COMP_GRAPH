@@ -201,5 +201,18 @@ namespace WindowsFormsApp1
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
+        private void поXToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            char regim = 'X';
+            Filtres filter = new shurra(regim);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void поYToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            char regim = 'Y';
+            Filtres filter = new shurra(regim);
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }

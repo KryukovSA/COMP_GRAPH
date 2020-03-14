@@ -10,19 +10,7 @@ namespace WindowsFormsApp1
 {
     class Autolevels : Filtres
     {
-        //protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
-        //{
-        //    double needColorR = 255;
-        //    double needColorG = 215; //золотистый цвет
-        //    double needColorB = 1;
-        //    Color sourceColor = sourceImage.GetPixel(x, y); // получение цвета исходного пикселя
-
-
-        //    Color resultColor = Color.FromArgb(Clamp((int)(needColorR / sourceColor.R), 0, 255), //не все понятно в презентации в формуле
-        //                                       Clamp((int)( needColorG /sourceColor.G), 0, 255),
-        //                                       Clamp((int)( needColorB / sourceColor.B), 0, 255));
-        //    return resultColor;
-        //}
+      
         public override Bitmap processImage(Bitmap sourceImage, System.ComponentModel.BackgroundWorker worker)//Bitmap sourceImage, System.ComponentModel.BackgroundWorker backgroundWorker1
         {
             Bitmap resultImage = new Bitmap(sourceImage.Width, sourceImage.Height);

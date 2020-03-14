@@ -64,6 +64,7 @@
     <Compile Include="InxvertFilter.cs" />
     <Compile Include="MatrixFilter.cs" />
     <Compile Include="MediannFiltres.cs" />
+    <Compile Include="shurra.cs" />
     <Compile Include="Turn.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
